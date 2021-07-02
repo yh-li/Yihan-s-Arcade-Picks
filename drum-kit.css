@@ -1,0 +1,57 @@
+.keyboard{
+    width:1500px;
+    height:150px;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding-bottom: 20px;
+    margin:0 auto;
+    
+}
+.up{
+    padding-top: 20px;
+}
+.button{
+    height:150px;
+    display:inline-block;
+    width:150px;
+    margin:0 20px;
+    position: relative;
+}
+
+.button img{
+    width:150px;
+    height:150px;
+}
+.button h1{
+    position: absolute;
+    top:0;
+    left:70px;
+}
+.pressed-button h1{
+    color:blue;
+}
+
+.pressed-img{
+    width:100px;
+    height:100px;
+}
+
+img{
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+h1, h5{
+    text-align: center;
+}
+h1{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 4rem;
+}
+    body{
+    background-color: lightseagreen;
+}
+.more-game{
+    text-align: center;
+}

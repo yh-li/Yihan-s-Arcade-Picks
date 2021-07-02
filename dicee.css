@@ -1,0 +1,73 @@
+.dice{
+    height:350px;
+    width:350px;
+    display: inline-block;
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+.right img, .left img{
+    width:300px;
+    height:300px;
+}
+.left{
+    margin-right: 100px;
+}
+img{
+    margin:0;
+    border:0;
+    padding:0;
+}
+.dicee{
+    position: relative;
+    width:900px;
+    height:300px;
+    margin:100px auto 70px;
+    text-align: center;
+}
+h1, h5{
+    text-align: center;
+}
+h1{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 4rem;
+}
+h5{
+    margin-top: 30px;
+}
+#greeting{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+body{
+    background-color:slategray;
+    margin:0;
+}
+p{
+    text-align: center;
+}
+#roll{
+    position:relative;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin:0 auto;
+    background-color: snow;
+    text-align: center;
+    vertical-align: -webkit-baseline-middle;
+    transition: 1s;
+    cursor: pointer;
+}
+#roll p{
+    position:absolute;
+    height:20px;
+    width:30px;
+    left:10px;
+    cursor: pointer;
+    
+}
+#roll:hover{
+    background-color: springgreen;
+}

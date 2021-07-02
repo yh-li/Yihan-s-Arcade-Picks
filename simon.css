@@ -1,0 +1,33 @@
+#greeting{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+body{
+    background-color: lightseagreen;
+}
+.panel{
+    position: relative;
+    width:90vw;
+    text-align: center;
+    margin:0 auto;
+}
+.button{
+    display: inline-block;
+    height:250px;
+    width:250px;
+    border:5px solid black;
+    border-radius: 5%;
+    margin:10px;
+    transition: all 0.5s;
+    
+}
+.dark-button{
+    filter:brightness(50%);
+}
+.more-game{
+    text-align: center;
+}
+.copyright{
+    margin-top: 50px;
+    text-align: center;
+}
